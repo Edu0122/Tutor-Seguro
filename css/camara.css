@@ -1,0 +1,152 @@
+.contenedor-camara{
+    background:#012f46; 
+    width:900px;
+    height:900px;
+    margin:30px auto;
+    border-radius:0.4em;
+    border:1px solid #191919;
+    overflow:hidden;
+    position:relative;
+    box-shadow: 0 5px 10px 5px #012f46;
+  }
+  
+  h1{
+    
+    font-size:18px;
+    text-shadow:0 1px 0 black;
+    text-align:center;
+    padding:15px 0;
+    border-bottom:1px solid rgba(0,0,0,1);
+    position:relative;
+  }
+  
+  #start-camera{
+    padding:5px 20px;
+    border:1px solid rgba(0,0,0,0.4);
+    text-shadow:0 -1px 0 rgba(0,0,0,0.4);
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,0.3),
+      inset 0 10px 10px rgba(227, 224, 224, 0.899);
+    border-radius:0.3em;
+    background:#ffffff;
+    color:rgb(12, 186, 205);
+    
+    font-weight:bold;
+    cursor:pointer;
+    font-size:13px;
+  }
+  
+  #click-photo{
+    padding:5px 20px;
+    border:1px solid rgba(0,0,0,0.4);
+    text-shadow:0 -1px 0 rgba(0,0,0,0.4);
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,0.3),
+      inset 0 10px 10px rgba(227, 224, 224, 0.899);
+    border-radius:0.3em;
+    background:#ffffff;
+    color:rgb(12, 186, 205);
+    
+    font-weight:bold;
+    cursor:pointer;
+    font-size:13px;
+  }
+
+  body {
+	font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  color:rgb(255, 255, 255);
+  font-size:12px;
+  background-image: url("https://thumbs.dreamstime.com/b/c%C3%A1mara-cctv-ciudad-de-la-noche-106798667.jpg");
+
+}
+
+.modalB {
+    width: 120px;
+    padding: 10px;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #111111;
+    cursor: pointer;
+    background-color: white;
+    text-align:center;
+}
+
+.titulo {
+    margin-top: 10px;
+    color: white;
+    padding: auto;
+    margin-bottom: 10px;
+    text-align:center;
+}
+
+select{
+    color: black;
+    margin-bottom: 10px;
+    text-align:center;
+    display: block;
+    margin: 0 auto;
+}
+
+.control-label {
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align:center;
+    display: block;
+    font-size:15px;
+}
+
+.caja{
+
+    display: block;
+    width:900px;
+    margin: 0 auto;
+    background:#012f46;
+    margin:30px auto;
+    border-radius:0.4em;
+    border:1px solid #191919;
+    overflow:hidden;
+    position:relative;
+    box-shadow: 0 5px 10px 5px #012f46;
+}
+
+.smsButton{
+  color: black;
+  margin-bottom: 10px;
+  text-align:center;
+  display: block;
+  margin-top: 10px;
+  font-size:15px;
+  margin: 0 auto;
+}
+
+.valButton{
+  color: black;
+  margin-bottom: 10px;
+  text-align:center;
+  display: block;
+  margin: 0 auto;
+  font-size:15px;
+}
+.clave{
+color: black;
+  margin-bottom: 10px;
+  text-align:center;
+  display: block;
+  margin: 0 auto;
+  font-size:15px;
+
+}
+.inner{
+  color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align:center;
+    display: block;
+    font-size:15px;
+    margin: 0 auto;
+}
+.espacio{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
